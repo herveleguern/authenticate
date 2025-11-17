@@ -100,7 +100,7 @@ app.post('/login', function (req, res, next) {
           user.name +
           ' click to <a href="/logout">logout</a>. ' +
           ' You may now access <a href="/restricted">/restricted</a>.'
-        res.redirect('restricted')
+        res.redirect('restricted')  //novembre2025
       })
     } else {
       req.session.error =
